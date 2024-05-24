@@ -1,0 +1,11 @@
+ "Validation failed for argument [0] in public 
+ org.springframework.http.ResponseEntity<java.lang.Object>
+  com.dpkbinwal.rest.webservices.restfulwebservices.user.UserResource.
+  
+  
+  createUser(com.dpkbinwal.rest.webservices.restfulwebservices.user.User)
+  : [Field error in object 'user' on field 'birthDate': rejected value [2094-10-13];
+   codes [Past.user.birthDate,Past.birthDate,Past.java.time.LocalDate,Past]; 
+   arguments [org.springframework.context.support.
+ DefaultMessageSourceResolvable: codes [user.birthDate,birthDate]; arguments [];
+  default message [birthDate]]; default message [must be a past date]] ",
